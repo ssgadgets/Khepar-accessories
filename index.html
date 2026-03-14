@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khepar Accessories</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0f0f0f;
+color:white;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#000;
+border-bottom:1px solid #333;
+}
+
+.logo{
+font-size:26px;
+font-weight:bold;
+color:#d4af37;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:white;
+font-size:16px;
+}
+
+nav a:hover{
+color:#d4af37;
+}
+
+/* HERO */
+
+.hero{
+height:70vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url("https://images.unsplash.com/photo-1518546305927-5a555bb7020d");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+color:#d4af37;
+}
+
+.hero p{
+margin-top:10px;
+font-size:18px;
+}
+
+/* PRODUCTS */
+
+.section{
+padding:60px;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:40px;
+color:#d4af37;
+font-size:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.product{
+background:#1a1a1a;
+padding:20px;
+border-radius:10px;
+text-align:center;
+border:1px solid #333;
+}
+
+.product img{
+width:100%;
+border-radius:8px;
+}
+
+.product h3{
+margin-top:10px;
+}
+
+.product p{
+color:#bbb;
+margin:5px 0;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 18px;
+background:#d4af37;
+color:black;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+/* SUPPORT */
+
+.support{
+background:#111;
+padding:50px;
+text-align:center;
+}
+
+.support h2{
+color:#d4af37;
+margin-bottom:20px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#000;
+border-top:1px solid #333;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Khepar Accessories</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#shades">Shades</a>
+<a href="#watches">Watches</a>
+<a href="#chains">Chains</a>
+<a href="#accessories">Accessories</a>
+<a href="#support">Support</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+<h1>Luxury Accessories Collection</h1>
+<p>Premium Shades, Watches & Chains</p>
+</div>
+
+</section>
+
+<!-- SHADES -->
+
+<section class="section" id="shades">
+
+<h2>Shades</h2>
+
+<div class="grid">
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083">
+<h3>Premium Sunglasses</h3>
+<p>$29.99</p>
+
+<a class="btn"
+href="https://www.alibaba.com/trade/search?SearchText=sunglasses"
+target="_blank">Order Supplier</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- WATCHES -->
+
+<section class="section" id="watches">
+
+<h2>Luxury Watches</h2>
+
+<div class="grid">
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+<h3>Men Luxury Watch</h3>
+<p>$59.99</p>
+
+<a class="btn"
+href="https://www.alibaba.com/trade/search?SearchText=luxury+watch"
+target="_blank">Order Supplier</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CHAINS -->
+
+<section class="section" id="chains">
+
+<h2>Chains</h2>
+
+<div class="grid">
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a">
+<h3>Gold Plated Chain</h3>
+<p>$19.99</p>
+
+<a class="btn"
+href="https://www.alibaba.com/trade/search?SearchText=gold+chain"
+target="_blank">Order Supplier</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ACCESSORIES -->
+
+<section class="section" id="accessories">
+
+<h2>Accessories</h2>
+
+<div class="grid">
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1611599537845-1c7aca0091c0">
+<h3>Bracelet</h3>
+<p>$14.99</p>
+
+<a class="btn"
+href="https://www.alibaba.com/trade/search?SearchText=bracelet"
+target="_blank">Order Supplier</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SUPPORT -->
+
+<section class="support" id="support">
+
+<h2>Customer Support</h2>
+
+<p><strong>Owner:</strong> Parlab Khepar</p>
+<p><strong>Email:</strong> parlabkhepar@gmail.com</p>
+<p><strong>Phone:</strong> +61 468340307</p>
+
+<p style="margin-top:15px;">
+For order support, shipping inquiries, or partnerships contact us anytime.
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Khepar Accessories – All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
